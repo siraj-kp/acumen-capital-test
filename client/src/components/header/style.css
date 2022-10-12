@@ -1,0 +1,12 @@
+.header {
+  overflow: hidden;
+  background-color: #e0f2ff;
+  padding: 20px 10px;
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000;
+}

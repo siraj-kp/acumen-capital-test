@@ -1,5 +1,12 @@
-html,
+@font-face {
+  src: url("./assets/fonts/SF-Pro-Text-Regular.otf");
+  font-family: sf-pro;
+}
+
 body {
+  background-color: #ecf8e8;
   margin: 0;
-  padding: 0;
+  background-image: linear-gradient(#ecf8e8, #e0f2ff);
+  background-repeat: no-repeat;
+  font-family: sf-pro;
 }
