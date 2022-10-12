@@ -9,4 +9,13 @@ body {
   background-image: linear-gradient(#ecf8e8, #e0f2ff);
   background-repeat: no-repeat;
   font-family: sf-pro;
+  height: 100vh;
+}
+
+.borderR12 {
+  border-radius: 12px;
+}
+
+.bg-color {
+  background-color: #e0f2ff !important;
 }

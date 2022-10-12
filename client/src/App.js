@@ -45,8 +45,22 @@ function App() {
   return (
     <div className="">
       <Header />
-      <SearchBar onSelect={handleSelect} />
-      <ViewStock data={selectedData} />
+      <div className="row justify-content-center">
+        <div className="col-md-4">
+          <h1 className="text-center">
+            The easiest way to buy and sell stocks
+          </h1>
+          <p className="text-center">
+            <b>Stock analysis and screening tool for investors in India</b>
+          </p>
+          <SearchBar onSelect={handleSelect} />
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        <div className="col-md-6 ">
+          <ViewStock data={selectedData} />
+        </div>
+      </div>
     </div>
   );
 }
